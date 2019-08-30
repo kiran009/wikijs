@@ -2,7 +2,7 @@
 title: GIT submodules
 description: GIT submodules
 published: true
-date: 2019-08-30T06:22:10.064Z
+date: 2019-08-30T06:23:32.934Z
 tags: 
 ---
 
@@ -56,3 +56,4 @@ git submodule foreach 'git reset --hard'
 # including nested submodules
 
 git submodule foreach --recursive 'git reset --hard'
+
