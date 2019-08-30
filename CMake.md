@@ -2,7 +2,7 @@
 title: CMake
 description: CMake
 published: true
-date: 2019-08-30T16:45:36.102Z
+date: 2019-08-30T17:01:34.151Z
 tags: 
 ---
 
@@ -31,6 +31,7 @@ For Testing CMake
 ## With Jenkins
 https://wiki.jenkins.io/display/JENKINS/CMake+Plugin
 compatible with Jenkins Pipeline
+- Jenkinsfile
 
 ## References
 [CMake](https://cmake.org/)
