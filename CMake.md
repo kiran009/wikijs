@@ -2,7 +2,7 @@
 title: CMake
 description: CMake
 published: true
-date: 2019-08-30T07:26:40.574Z
+date: 2019-08-30T09:47:15.602Z
 tags: 
 ---
 
@@ -20,7 +20,7 @@ CMake also supports static and dynamic library builds. Another nice feature of C
 yum install cmake
 
 For the below simple test.cpp:
-// test.cpp
+`// test.cpp
 
 #include <iostream>
 
@@ -33,7 +33,7 @@ int main(void) {
      return(0);
 
 }
-
+`
   We would need to create CMakeLists.txt 
   # Specify the minimum version for CMake
 
