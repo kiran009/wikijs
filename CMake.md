@@ -2,10 +2,11 @@
 title: CMake
 description: CMake
 published: true
-date: 2019-09-03T09:20:42.422Z
+date: 2019-09-03T09:22:50.992Z
 tags: 
 ---
 
+%%TOC%%
 # CMake
 - CMake is an open-source, cross-platform family of tools designed to build, test and package software.
 - CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice. 
