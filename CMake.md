@@ -2,14 +2,8 @@
 title: CMake
 description: CMake
 published: true
-date: 2019-09-03T09:31:26.485Z
+date: 2019-09-03T09:44:11.661Z
 tags: 
----
-
-# Table of Contents
-
----
-
 ---
 
 # CMake
@@ -28,7 +22,8 @@ Make would parse the configuration file(Makefile) containing all commands to bui
 In the other hand, CMake will also parse a configuration file (CMakeLists.txt), but instead of directly build the artifact, it’ll generate another configuration file that will, in fact, build the artifact.
 
 The extra level of indirection helps to resolve the ability to create different configuration files to build your project for different platforms, thus making it portable.
-![CMake](https://github.com/kiran009/cmakeTesting/blob/master/resources/1%20nCz0td-PUde-nW-RTiQ9qw.png)
+![CMake](https://github.com/kiran009/cmakeTesting/blob/master/resources/cmake-environment.png)
+
 ## Advantages
 [Build With Confidence](https://www.kitware.com/build-with-cmake-build-with-confidence/)
 ## Installation in REDHAT
