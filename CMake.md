@@ -2,18 +2,19 @@
 title: CMake
 description: CMake
 published: true
-date: 2019-09-03T07:48:59.744Z
+date: 2019-09-03T07:51:11.376Z
 tags: 
 ---
 
 # CMake
-- CMake is an open-source, cross-platform family of tools designed to build, test and package software. CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice. 
- 
+- CMake is an open-source, cross-platform family of tools designed to build, test and package software.
+- CMake is used to control the software compilation process using simple platform and compiler independent configuration files, and generate native makefiles and workspaces that can be used in the compiler environment of your choice. 
 - Simple configuration files placed in each source directory (called CMakeLists.txt files) are used to generate standard build files (e.g., makefiles on Unix and projects/workspaces in Windows MSVC) which are used in the usual way.
- 
-- CMake can generate a native build environment that will compile source code, create libraries, generate wrappers and build executables in arbitrary combinations. CMake supports in-place and out-of-place builds, and can therefore support multiple builds from a single source tree.
+- CMake can generate a native build environment that will compile source code, create libraries, generate wrappers and build executables in arbitrary combinations. 
+- CMake supports in-place and out-of-place builds, and can therefore support multiple builds from a single source tree.
+- CMake also supports static and dynamic library builds. Another nice feature of CMake is that it generates a cache file that is designed to be used with a graphical editor. 
 
-- CMake also supports static and dynamic library builds. Another nice feature of CMake is that it generates a cache file that is designed to be used with a graphical editor. For example, when CMake runs, it locates include files, libraries, and executables, and may encounter optional build directives. This information is gathered into the cache, which may be changed by the user prior to the generation of the native build files.
+For example, when CMake runs, it locates include files, libraries, and executables, and may encounter optional build directives. This information is gathered into the cache, which may be changed by the user prior to the generation of the native build files.
 
 ## Advantages
 [Build With Confidence](https://www.kitware.com/build-with-cmake-build-with-confidence/)
@@ -31,6 +32,5 @@ For Testing CMake
 https://wiki.jenkins.io/display/JENKINS/CMake+Plugin
 compatible with Jenkins Pipeline
 - Jenkinsfile
-
 ## References
 [CMake](https://cmake.org/)
